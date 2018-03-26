@@ -108,6 +108,6 @@ More complete set of examples: https://github.com/nayuki/QR-Code-generator/blob/
 API documentation is in the source file itself, with a summary comment at the top: https://github.com/nayuki/QR-Code-generator/blob/master/python/qrcodegen.py .
 
 .. _PyPI: https://pypi.python.org/pypi/qrcodegen""",
-	
-	py_modules = ["qrcodegen"],
+	packages = ['qrcodegen', 'qrcodegen.image']
+#	py_modules = ["qrcodegen", "qrcodegen.image.base", "qrcodegen.image.pil","qrcodegen.qrcodeutil"],
 )
